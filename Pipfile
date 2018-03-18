@@ -6,10 +6,11 @@ verify_ssl = true
 
 [packages]
 
-django = "*"
-gunicorn = "*"
-django-heroku = "*"
-
+peewee
+pytz
+psycopg2
+psycopg2-binary
+pytelegrambotapi
 
 [requires]
 
