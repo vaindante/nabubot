@@ -4,8 +4,8 @@ TOKEN = '576701434:AAFxQLWEp4HqxaTvNXFLoS4NHMl6jHrZlmA'
 DB = 'd1l38h8lqhilvc'
 SERVER = 'ec2-54-221-212-15.compute-1.amazonaws.com'
 USER = 'gziqyxvqktbptx'
-field = namedtuple('reg', ('name', 'translate'))
-
+field = namedtuple('reg', ('name', 'translate', 'func'))
+field.__new__.__defaults__ = (None,) * 3
 user = {
     'url_foto': '',
     'name': '',
