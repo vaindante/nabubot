@@ -1,4 +1,4 @@
-# Python: Getting
+# Python: Getting hgnf
 
 A barebones Django app, which can easily be deployed to Heroku.
 
