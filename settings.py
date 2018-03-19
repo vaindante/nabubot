@@ -6,7 +6,7 @@ import telebot
 
 from config import TOKEN
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.AsyncTeleBot(TOKEN)
 log = telebot.logger
 
 console_handler = logging.StreamHandler(sys.stdout)
