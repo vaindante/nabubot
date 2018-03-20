@@ -1,0 +1,6 @@
+peewee
+pytz
+psycopg2
+psycopg2-binary
+pytelegrambotapi
+
